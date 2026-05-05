@@ -4,8 +4,8 @@ import gradio as gr
 from crewai import Agent, Task, Crew
 from crewai_tools import SerperDevTool
 
-os.environ['SERPER_API_KEY'] = 'd669d5ffde2e5e6adc421710a3512c74c49e0d3d'
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyAWNuQVMDHgqEMlIiqxr-Rk1EwFUjzIH3w'
+os.environ['SERPER_API_KEY'] = ''
+os.environ["GOOGLE_API_KEY"] = ''
 search_tool = SerperDevTool()
 
 def run_multi_agent(topic):
