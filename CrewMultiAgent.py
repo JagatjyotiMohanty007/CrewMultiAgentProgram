@@ -20,8 +20,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 os.environ["LITELLM_PROVIDER"] = "gemini"
 # os.environ['OPENAI_API_KEY'] = 'use your api key'
-os.environ['SERPER_API_KEY'] = 'd669d5ffde2e5e6adc421710a3512c74c49e0d3d'
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyAWNuQVMDHgqEMlIiqxr-Rk1EwFUjzIH3w'
+os.environ['SERPER_API_KEY'] = ''
+os.environ["GOOGLE_API_KEY"] = ''
 search_tool = SerperDevTool()
 
 llm = "gemini/gemini-2.5-flash"
